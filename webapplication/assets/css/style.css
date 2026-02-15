@@ -1,0 +1,90 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page Body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #4e73df, #1cc88a);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Shared Container (for login/register pages) */
+.container {
+    text-align: center;
+}
+
+/* Heading */
+h1 {
+    color: #ffffff;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+/* ================= INDEX PAGE BUTTONS ================= */
+
+a {
+    display: block;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #4e73df;
+    padding: 12px 30px;
+    margin: 15px auto;
+    width: 220px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s ease;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+a:hover {
+    background-color: #4e73df;
+    color: #ffffff;
+    transform: translateY(-3px);
+}
+
+/* ================= FORM STYLING ================= */
+
+form {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Inputs */
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 260px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+/* Submit Button */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #4e73df;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #2e59d9;
+}

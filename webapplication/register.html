@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register User</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1 >Register User</h1>
+    <form method="post" onsubmit="return registerUser()">
+        <input type="text" id="username" name="username" placeholder="Enter Username" required><br>
+        <input type="password" name="password" id="password" placeholder="Enter Password" required ><br>
+        <input type="email" name="email" id="email" placeholder="Enter Email" required>
+        <input type="submit" name="submit" id="submit" title="Submit"><br>
+    </form>
+    </div>
+
+    <script src="./assets/js/server.js"></script>
+</body>
+</html>
